@@ -1,7 +1,17 @@
 # **Análisis de Tráfico Web - Business Inteligence**
 
 ## **Introducción**
-Este proyecto busca identificar los factores que impulsan la conversión de usuarios y sugiere estrategias de optimización. Denominamos conversión a concretar una acción deseada por el negocio, mientras que la tasa de conversión mide la efectividad del sitio web en que el objetivo se cumpla. 
+Este proyecto busca identificar los factores que impulsan la conversión de usuarios y sugiere estrategias de optimización. Denominamos conversión a concretar una acción deseada por el negocio, mientras que la tasa de conversión mide la efectividad de que el objetivo del sitio web se cumpla. 
+
+El dataset provee la siguiente información:
+
+- **Page Views**: La cantidad de páginas visitadas en una sesión.
+- **Session Duration**: La duración en minutos de la sesión.
+- **Bounce Rate**: La cantidad de usuarios que salieron del sitio web viendo una única página.
+- **Traffic Source**: La fuente de origen del usuario.
+- **Time on Page**: El tiempo que estuvo un usuario en una página específica.
+- **Previous Visits**: La cantidad de visitas previas hechas por el mismo usuario.
+- **Conversion Rate**: El porcentaje de usuarios que completaron una acción deseada.
 
 ---
 
