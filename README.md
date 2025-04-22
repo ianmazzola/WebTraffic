@@ -25,7 +25,19 @@ El dataset provee la siguiente información:
 ---
 
 ## **Análisis Exploratorio de Datos (EDA)**
+- Hice distintos scatterplots para comparar distintas variables con Conversion Rate con el fin de comprender el comportamiento de los usuarios que completan las acciones deseadas.
 
+![Session Duration](session_duration.png)
+Podemos ver aquí que más de 6 minutos por sesión no significa una mayor conversión
+
+![Time on Page](time_on_page.png)
+Podemos notar que más de 7 minutos en una página no signiica una mayor conversión
+
+- Busque comprender las distintas fuentes de tráfico con un boxplot. Tenemos tráfico orgánico, pago, social, directo y referido. Se pudo ver que estas 5 fuentes son igual de eficientes al convertir.
+  
+- Analicé el comportamiento de los usuarios basandome en las visitas previas. Se encontraron patrones de comportamiento para los usuarios que mas frecuentan el sitio web. Aquellos con mayor cantidad de visitas, se supone que ya conocen el sitio web y saben lo que quieren porque sus sesiones son mas cortas. Por otro lado, el siguiente gráfico permite ver que más de 5 visitas previas casi aseguran una conversión
+
+![Previous Visits](previous_visits_conversion.png)
 
 ---
 
