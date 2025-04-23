@@ -43,18 +43,34 @@ Podemos notar que más de 7 minutos en una página no signiica una mayor convers
 
 ## **Modelo Predictivo (Machine Learning)**
 
+Se implementaron dos modelos de machine learning, una regresión logística y un Random Forest Classifier con **class_weight="balanced"**. La regresión logística tuvo mejor desempeño y estos fueron sus resultados: 
+* Accuracy: 0,9125
+* Recall sobre la conversión: 0,97
+* F1-Score sobre la conversión: 0,95
+
+Prioricé predecir a los usuarios que convierten. Sugiero como mejora a futuro, ajustar y tratar de reducir los falsos negativos y falsos positivos sin comprometer los buenos resultados que tuvo el modelo.   
 
 ---
 
 ## **Insights**
 
+- El tiempo en una página y la duración de la sesión son variables fuertemente asociadas a la conversión.
+- Los usuarios con más visitas previas al sitio web conocen la página web y no suelen explorarla. La duración de las sesiones de ellos duran mucho menos que las de aquellos que entran por primera vez.
+- Casi siempre, los usuarios con más de 5 visitas previas convierten y hacen una acción deseada.
+- Los usuarios de tráfico directo tienen el promedio mas bajo de duración de sesión. Muy probablemente tiene que ver con que saben lo que quieren en la página.
+  
 ---
 
 ## **Recomendaciones de Business Inteligence**
 
-
+- Mejorar el contenido y diseño de las páginas web para incitar a una conversión. Según los insights, alargar el tiempo de la sesión y en una página llevan a convertir.
+- Implementar campañas de retargeting para aumentar la lealtad de los usuarios que ya interactuaron en el sitio web.
+- La fuente orgánica aporta la mayor cantidad de tráfico, sugiero cuidar esta fuente con optimizaciones de motor de busqueda y SEO para tener un buen posicionamiento en los buscadores.
+  
 ---
 
 ## **Conclusión**
 
-   ![Dashboard 4](productos.png)
+El análisis permitió identificar factores críticos en la conversión de usuarios en la página web. El modelo predictivo logró una alta capacidad de anticipar qué usuarios tienen mayor probabilidad de convertir, ofreciendo una herramienta valiosa para optimizar acciones de marketing y UX.
+La idea original incluía un dashboard de monitoreo con KPIs como tasa de conversión por fuente de tráfico, tiempo en página promedio, y visitas previas por usuario. Sin embargo, por conflictos técnicos con Power BI, esta sección quedó pendiente.
+A futuro, podría complementarse el análisis y modelo incorporando nuevas variables de comportamiento del usuario (por ejemplo, click through rate, heatmaps de cursor, clics, etc.) para enriquecer aún más la predicción. 
